@@ -7,7 +7,15 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/bg-video";
 @import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/story";
+
+
 
 @import "layout/grid.scss";
 @import "layout/header.scss";
@@ -26,6 +34,6 @@ html {
     font-size: 62.5%;
 }
 body {
-
+    
     box-sizing: border-box;
 }
